@@ -12,16 +12,11 @@
     </style>
 </head>
 <body>
-    <h1>Hello, Nicky and Sadanand!!</h1>
-    <h2>You are seeing the demonstration of pipeline built using Jenkins, Git, JFrog Artifactory, Maven, SonarQube, and Tomcat</h2>
-    <h2>Happy to see you here</h2>
-    <hr>
-    <h3>Additional Features:</h3>
-    <ul>
-        <li>Dynamic Content Generation</li>
-        <li>User Authentication</li>
-        <li>Database Integration</li>
-        <li>Data Visualization</li>
-    </ul>
+    <h1>Welcome to the Pipeline Demo!</h1>
+    <h2>Please enter your name:</h2>
+    <form action="welcome.jsp" method="POST">
+        <input type="text" name="name" required>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
