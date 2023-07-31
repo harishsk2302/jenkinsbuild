@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to the Pipeline Demo!</h1>
+    <h1>Welcome to the Pipeline</h1>
     <h2>Please enter your name:</h2>
     <form action="welcome.jsp" method="POST">
         <input type="text" name="name" required>
