@@ -12,7 +12,8 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to this Pipeline</h1>
+    <h1>Welcome to this Microgenesis!</h1>
+    <h2>This line is added for test purpose</h2>
     <h2>Please enter your name:</h2>
     <form action="welcome.jsp" method="POST">
         <input type="text" name="name" required>
